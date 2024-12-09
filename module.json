@@ -1,0 +1,143 @@
+{
+  "id": "sohl-cpn-hegovyn-vale",
+  "title": "Blood and Ashes in Hegóvyn Vale",
+  "version": "0.0.1",
+  "bugs": "https://github.com/toastygm/sohl-cpn-hegovyn-vale/issues",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "Toasty",
+      "discord": "toasty#8538",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "styles": [], 
+  "relationships": {
+    "systems": [
+      {
+        "id": "sohl",
+        "type": "system",
+        "manifest": "https://github.com/toastygm/Song-of-Heroic-Lands-FoundryVTT/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "0.4.0",
+          "verified": "0.4.3"
+	}
+      }
+    ]
+  },
+  "scripts": [],
+  "packFolders": [
+    {
+      "name": "Hegóvyn Vale",
+      "sorting": "m",
+      "folders": [
+          {
+              "name": "Brigands of Hegóvyn Vale",
+              "sorting": "m",
+              "color": "#ac09cb",
+              "packs": [
+                  "p1-journals",
+                  "p1-scenes"
+              ]
+          },
+          {
+              "name": "The Web of Deceit",
+              "sorting": "m",
+              "color": "#ac09cb",
+              "packs": [
+                  "p2-journals",
+                  "p2-scenes"
+              ]
+          },
+          {
+              "name": "The Fires of the Blood Hills",
+              "sorting": "m",
+              "color": "#ac09cb",
+              "packs": [
+                  "p3-journals",
+                  "p3-scenes"
+              ]
+          }
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "label": "Scenes",
+      "name": "p1-scenes",
+      "path": "packs/p1-scenes",
+      "type": "Scene",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Journals",
+      "name": "p1-journals",
+      "path": "packs/p1-journals",
+      "type": "JournalEntry",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Scenes",
+      "name": "p2-scenes",
+      "path": "packs/p2-scenes",
+      "type": "Scene",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Journals",
+      "name": "p2-journals",
+      "path": "packs/p2-journals",
+      "type": "JournalEntry",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Scenes",
+      "name": "p3-scenes",
+      "path": "packs/p3-scenes",
+      "type": "Scene",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Journals",
+      "name": "p3-journals",
+      "path": "packs/p3-journals",
+      "type": "JournalEntry",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/toastygm/hm-cpn-hegovyn-vale/",
+  "manifest": "https://github.com/toastygm/hm-cpn-hegovyn-vale/releases/latest/download/module.json",
+  "download": "https://github.com/toastygm/hm-cpn-hegovyn-vale/releases/download/v0.0.1/module.zip",
+  "flags": {
+    "allowBugReporter": true
+  }
+}
